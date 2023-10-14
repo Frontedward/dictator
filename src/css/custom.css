@@ -1,0 +1,137 @@
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.container {
+  max-width: 1024px !important;
+}
+
+.hero__subtitle a {
+  color: #fff;
+}
+
+[data-theme="dark"] .hero__subtitle a {
+  color: #000;
+}
+
+.go {
+  color: #fff !important;
+}
+
+[data-theme="dark"] .go {
+  color: #000 !important;
+  border-color: #000;
+}
+
+.go:hover {
+  color: #000 !important;
+}
+
+[data-theme="dark"] .go:hover {
+  color: #fff !important;
+  background-color: #333;
+}
+
+.small {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 424px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+  .hero__subtitle {
+    font-size: 1.3rem;
+  }
+  .small {
+    font-size: 1.1rem;
+  }
+  .markdown h1:first-child {
+    font-size: 2rem;
+  }
+  .markdown > h2 {
+    font-size: 1.6rem;
+  }
+  article header h2 {
+    font-size: 1.8rem !important;
+  }
+}
+
+.navbar__link--active {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu__link--active {
+  color: inherit;
+  background-color: inherit;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: inherit;
+}
+
+[aria-current="page"] {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+.hero__logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 120px;
+  height: 120px;
+}
+
+.footer__title {
+  margin-bottom: 0.4rem;
+}
+
+.footer__link {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  margin: 0.4rem 0;
+}
+
+.footer__link img {
+  width: 32px;
+}
+
+article header h1 {
+  font-size: 2.6rem !important;
+}
+
+article img {
+  border-radius: 6px;
+}
+
+.margin-bottom--xl {
+  margin-bottom: 3rem !important;
+}
