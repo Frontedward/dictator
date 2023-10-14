@@ -1,4 +1,4 @@
-![logo](./static/img/logo1.png)
+![logo](./static/img/banner.png)
 
 # Dictator
 
