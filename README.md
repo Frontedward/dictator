@@ -1,6 +1,6 @@
-![logo](./static/img/js128.png)
+![logo](./static/img/logo1.png)
 
-# DIctator
+# Dictator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
